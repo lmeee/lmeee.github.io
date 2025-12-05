@@ -1,0 +1,265 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Mingen Li</title>
+  <meta name="author" content="Mingen Li">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="icon" type="image/png" href="static/favicon.ico">
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-KVK6EML3WQ');
+  </script>
+</head>
+
+<body>
+  <section class="introduction">
+    <div class="bio">
+      <h2 class="name">Mingen Li</h2>
+      <p>
+        I am a forth-year ECE Ph.D. student at UMN Twin Cities, advised by <a
+          href="https://cse.umn.edu/ece/changhyun-choi">Changhyun Choi</a>. During my Master's at UCSD, my research
+        focused on robotics and differential simulation, more specifically articulated object manipulation and deformable object manipulation.</p>
+      <p>
+        I'm interested in robotic deformable manipulation with foundation models and VLMs.
+      </p>
+      <p style="text-align:center">
+        <a href="mailto:li002852@umn.edu">Email</a> &nbsp/&nbsp
+        <a href="https://scholar.google.com/citations?hl=en&user=h7_rVoEAAAAJ">Google Scholar</a>
+        &nbsp/&nbsp
+        <a href="https://www.linkedin.com/in/mingen-li-8b8110145">Linkedin</a>
+      </p>
+    </div>
+    <img class="profile-photo" src="static/me.jpg" alt="Haochen Shi">
+  </section>
+
+  <section class="research">
+    <h2>Research</h2>
+
+    <article class="paper">
+      <div class="paper-media">
+        <video class="paper-video" width="100%" height="100%" controls muted autoplay loop>
+          <source src="static/icra26_succ3_green.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="paper-content">
+        <b class="paper-title">Hierarchical DLO Routing with Reinforcement Learning and In-Context Vision-language Models</b>
+        <p class="paper-authors">
+          <b>Mingen Li</b>,
+          <a href="https://hjy-u.github.io/">Houjian Yu</a>,
+          <a href="https://yixuanhuang98.github.io/">Yixuan Huang</a>,
+          <a href="https://sites.google.com/view/youngjincv/home">Youngjin Hong</a>,
+          <a href="https://cse.umn.edu/ece/changhyun-choi">Changhyun Choi</a><sup>†</sup>,
+        </p>
+        <p class="paper-details"><em>ICRA (Under Review)</em>, 2026</p>
+        <div class="paper-links">
+          <a href="https://icra2026-dloroute.github.io/DLORoute/">[Project Page]</a>
+          <a href="https://arxiv.org/abs/2510.19268">[Paper]</a>
+          <a href="https://icra2026-dloroute.github.io/DLORoute/">[Video]</a>
+        </div>
+        <p class="paper-description"> Manipulating deformable linear objects such as cables and ropes is essential for automation in manufacturing and daily-life tasks but remains highly challenging due to their complex, long-horizon dynamics.
+        We present a fully autonomous hierarchical framework that integrates vision-language models (VLMs) for high-level reasoning and reinforcement learning (RL) for low-level skill execution.
+        Our system can interpret language or visual routing goals, decompose them into multi-step plans, and recover from failures by reorienting the DLO into feasible configurations.
+        It achieves a 92.5% success rate, outperforming prior methods by nearly 50% across diverse long-horizon routing scenarios.
+        </p>
+    </article>
+
+    <article class="paper">
+      <div class="paper-media">
+        <video class="paper-video" width="100%" height="100%" controls muted autoplay loop>
+          <source src="static/lacy.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="paper-content">
+        <b class="paper-title">LACY: A Vision-Language Model-based Language-Action Cycle for
+Self-Improving Robotic Manipulation</b>
+        <p class="paper-authors">
+          <a href="https://sites.google.com/view/youngjincv/home">Youngjin Hong</a><sup>*</sup>,
+          <a href="https://hjy-u.github.io/">Houjian Yu</a><sup>*</sup>,
+          <b>Mingen Li</b>,
+          <a href="https://cse.umn.edu/ece/changhyun-choi">Changhyun Choi</a>,
+        </p>
+        <p class="paper-details"><sup>*</sup>Equal contribution
+        <p class="paper-details"><em>ICRA (Under Review)</em>, 2026</p>
+        <!-- <div class="paper-links">
+          <a href="https://toddlerbot.github.io/">[Project Page]</a>
+          <a href="https://arxiv.org/abs/2502.00893">[Paper]</a>
+          <a href="https://youtu.be/A43QxHSgLyM">[Video]</a>
+          <a href="https://github.com/hshi74/toddlerbot">[Code]</a>
+          <a href="https://x.com/HaochenShi74/status/1886599720279400732">[Tweet]</a>
+          <a href="https://hshi74.github.io/toddlerbot">[Docs]</a>
+        </div> -->
+        <p class="paper-description">Bridging the gap between robotic action and language understanding is crucial for creating truly generalizable manipulation policies.
+We introduce LACY (Language-Action Cycle), a unified vision-language framework that learns both language-to-action (L2A) and action-to-language (A2L) mappings within a single model.
+By jointly training on action generation, explanation, and consistency verification (L2C), LACY forms a self-improving cycle that generates and filters new data without human annotation.
+This bidirectional grounding yields over 56% improvement in success rate on real-world pick-and-place tasks and enables robust, interpretable language-action reasoning.
+        </p>
+    </article>
+
+    <article class="paper">
+      <div class="paper-media">
+        <video class="paper-video" width="100%" height="100%" muted autoplay loop>
+          <source src="static/cut_softnylonfull.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="paper-content">
+        <b class="paper-title">Routing Manipulation of Deformable Linear Object Using
+Reinforcement Learning and Diffusion Policy</b>
+        <p class="paper-authors">
+          <b>Mingen Li</b>,
+          <a href="https://hjy-u.github.io/">Houjian Yu</a>,
+          <a href="https://cse.umn.edu/ece/changhyun-choi">Changhyun Choi</a>,
+        </p>
+        <p class="paper-details"><em>ICRA</em>, 2025</p>
+        <div class="paper-links">
+          <a href="https://icra2026-dloroute.github.io/DLORoute/">[Project Page]</a>
+          <a href="https://ieeexplore.ieee.org/document/11127451">[Paper]</a>
+          <a href="https://icra2026-dloroute.github.io/DLORoute/">[Video]</a>
+        </div>
+        <p class="paper-description">Manipulating deformable linear objects such as ropes and cables is fundamental for automation but remains difficult due to their infinite flexibility and frequent contact with uncertain environments.
+        We propose a reinforcement learning and diffusion policy–based framework for robust yet delicate DLO routing.
+        Our method first trains RL agents for insertion and pulling while minimizing rope tension under varying friction, then distills their behavior into a diffusion policy trained on expert rollouts.
+        This approach enables gentle, contact-aware manipulation that prevents rope damage and maintains robustness across rough environments.
+        </p>
+    </article>
+
+    <article class="paper">
+      <div class="paper-media">
+        <video class="paper-video" width="100%" height="100%" controls muted autoplay loop>
+          <source src="static/pet_rg_compress.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="paper-content">
+        <b class="paper-title">A Parameter-Efficient Tuning Framework for Language-Guided Object Grounding and Robot Grasping</b>
+        <p class="paper-authors">
+          <a href="https://hjy-u.github.io/">Houjian Yu</a>,
+          <b>Mingen Li</b>,
+          <a href="https://www.alireza.page/">Alireza Rezazadeh</a>,
+          <a href="https://st2yang.github.io/">Yang Yang</a>,
+          <a href="https://cse.umn.edu/ece/changhyun-choi">Changhyun Choi</a>,
+        </p>
+        <p class="paper-details"><sup>*</sup>Equal contribution</p>
+        <p class="paper-details"><em>ICRA</em>, 2025</p>
+        <div class="paper-links">
+          <a href="https://sites.google.com/umn.edu/etog-etrg/home">[Project Page]</a>
+          <a href="https://arxiv.org/abs/2409.19457">[Paper]</a>
+          <a href="https://sites.google.com/umn.edu/etog-etrg/home">[Video]</a>
+          <!-- <a href="https://github.com/hshi74/piano_dexterity">[Code]</a> -->
+        </div>
+        <p class="paper-description">
+          Understanding both language and vision is critical for robots to perform language-guided grasping in complex scenes.
+          We propose a CLIP-based parameter-efficient tuning (PET) framework that enables lightweight, adaptable multimodal learning for three key tasks: Referring Expression Segmentation (RES), Referring Grasp Synthesis (RGS), and Referring Grasp Affordance (RGA).
+          Our approach introduces a bi-directional vision-language adapter for pixel-level grounding and a depth fusion branch to integrate geometric cues.
+          The model achieves state-of-the-art grounding accuracy on RES while demonstrating strong generalization to spatial reasoning and multi-object scenarios with minimal computation.        </p>
+        </p>
+    </article>
+
+    <article class="paper">
+      <div class="paper-media">
+        <video class="paper-video" width="100%" height="100%" muted autoplay loop>
+          <source src="static/ropeinsert.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+      <div class="paper-content">
+        <b class="paper-title">Learning for Deformable Linear Object Insertion Leveraging Flexibility Estimation from Visual Cues</b>
+        <p class="paper-authors">
+          <b>Mingen Li</b>,
+          <a href="https://cse.umn.edu/ece/changhyun-choi">Changhyun Choi</a>,
+        </p>
+        <p class="paper-details"><em>ICRA</em>, 2024</p>
+        <div class="paper-links">
+          <a href="https://lmeee.github.io/DLOInsert/">[Project Page]</a>
+          <a href="https://arxiv.org/abs/2410.23428">[Paper]</a>
+          <a href="https://lmeee.github.io/DLOInsert/">[Video]</a>
+        </div>
+        <p class="paper-description">Manipulating deformable linear objects such as wires, rubber, and ropes is essential for robotic automation but difficult due to their diverse material properties.
+          We propose a two-stage framework that first estimates material flexibility from visual cues, then uses reinforcement learning to perform insertion tasks conditioned on this estimation.
+          The flexibility estimation module learns material characteristics in simulation and generalizes to real-world interaction.
+          Our approach achieves 85.6% success in simulation and 66.7% on real robots, demonstrating strong adaptability across different DLO types.
+        </p>
+    </article>
+
+    <article class="paper">
+      <div class="paper-media">
+        <img class="paper-video" src="static/Connect_XPBD_Tomas.png" alt="dynamics review" width="100%" height="100%">
+      </div>
+      <div class="paper-content">
+        <b class="paper-title">Robotic Manipulation of Deformable Rope-Like Objects Using Differentiable Compliant Position-Based Dynamics</b>
+        <p class="paper-authors">
+          Fei Liu<sup>*</sup>,
+          <a href="https://scholar.google.com/citations?user=JlBTF3YAAAAJ&hl=en">Entong Su</a><sup>*</sup>,
+          <a href="https://jingpeilu.github.io/">Jingpei Lu</a>,
+          <b>Mingen Li</b>,
+          <a href="https://yip.eng.ucsd.edu/">Michael Yip</a>,
+        </p>
+        <p class="paper-details"><sup>*</sup>Equal contribution</p>
+        <p class="paper-details"><em>RA-L</em>, 2023</p>
+        <div class="paper-links">
+          <a href="https://ieeexplore.ieee.org/document/10093017">[Paper]</a>
+        </div>
+        <p class="paper-description">Modeling and controlling rope-like deformable objects is vital for tasks such as autonomous suturing but remains challenging due to complex physics and real-to-sim discrepancies.
+          We introduce a differentiable compliant position-based dynamics (XPBD) framework that accurately models rope behavior through geometric constraints capturing stretch, shear, bend, and twist effects.
+          The differentiable formulation enables parameter estimation and real-to-sim adaptation, making it well suited for optimization and learning.
+          Experiments with Baxter and the da Vinci Research Kit (DVRK) validate its robustness and accuracy across diverse rope materials.
+        </p>
+    </article>
+
+    <article class="paper">
+      <div class="paper-media">
+        <img class="paper-video" src="static/diffpbd_impedance.png" alt="dynamics review" width="100%" height="100%">
+      </div>
+      <div class="paper-content">
+        <b class="paper-title">Parameter Identification and Motion Control for Articulated Rigid Body Robots Using Differentiable Position-based Dynamics</b>
+        <p class="paper-authors">
+          Fei Liu<sup>*</sup>,
+          <b>Mingen Li</b><sup>*</sup>,
+          <a href="https://jingpeilu.github.io/">Jingpei Lu</a>,
+          <a href="https://scholar.google.com/citations?user=JlBTF3YAAAAJ&hl=en">Entong Su</a>,
+          <a href="https://yip.eng.ucsd.edu/">Michael Yip</a>,
+        </p>
+        <p class="paper-details"><sup>*</sup>Equal contribution</p>
+        <div class="paper-links">
+          <a href="https://arxiv.org/abs/2201.05753">[Paper]</a>
+        </div>
+        <p class="paper-description">Accurate and differentiable simulation modeling is essential for robot control, design, and learning, yet most existing simulators sacrifice either speed, stability, or differentiability.
+          We introduce a differentiable position-based dynamics (PBD) framework that unifies articulated robot modeling, optimal design, and model-based control within a single simulation pipeline.
+          The framework provides native gradients through automatic differentiation over positional and angular constraints, enabling efficient optimization across robot parameters and motion.
+          We validate its capability through optimal robot design, torque and stiffness estimation, and real-world impedance control, showing strong accuracy and real-to-sim consistency.
+        </p>
+    </article>
+  </section>
+
+  <section class="teaching">
+    <h2>Teaching</h2>
+    <ul>
+      <li>Teaching Assistant, <a href="https://umtc.catalog.prod.coursedog.com/courses/0033711">  EE 2361 Introduction to Microcontrollers </a>, Spring 2024, Spring 2025</li>
+      <li>Teaching Assistant, <a href="https://umtc.catalog.prod.coursedog.com/courses/8199641">  EE 5271 Robot Vision</a>, Fall 2023, Fall 2024</li>
+      <li>Teaching Assistant, <a href="https://umtc.catalog.prod.coursedog.com/courses/0032321">  EE 3006 Fundamentals of Electrical Engineering Laboratory</a>, Fall 2023</li>
+
+    </ul>
+  </section>
+
+  <section class="service">
+    <h2>Professional Service</h2>
+    <ul>
+      <li>Conference Reviewer: IROS (2024), ICRA (2024, 2025, 2026)</li>
+      <li>Journal Reviewer: RA-L</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Template from <a href="https://jonbarron.info/">Jon Barron's website</a></p>
+  </footer>
+
+</body>
+
+</html>
