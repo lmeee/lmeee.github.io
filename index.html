@@ -62,10 +62,10 @@
           <a href="https://arxiv.org/abs/2510.19268">[Paper]</a>
           <a href="https://icra2026-dloroute.github.io/DLORoute/">[Video]</a>
         </div>
-        <p class="paper-description"> Manipulating deformable linear objects such as cables and ropes is essential for automation in manufacturing and daily-life tasks but remains highly challenging due to their complex, long-horizon dynamics.
-        We present a fully autonomous hierarchical framework that integrates vision-language models (VLMs) for high-level reasoning and reinforcement learning (RL) for low-level skill execution.
-        Our system can interpret language or visual routing goals, decompose them into multi-step plans, and recover from failures by reorienting the DLO into feasible configurations.
-        It achieves a 92.5% success rate, outperforming prior methods by nearly 50% across diverse long-horizon routing scenarios.
+        <p class="paper-description"> We present a fully autonomous hierarchical framework for cable 
+          routing that integrates vision–language models (VLMs) for high-level reasoning with reinforcement 
+          learning (RL) for low-level control. The system interprets language goals, generates multi-step plans, 
+          and recovers from failures, achieving a 92.5% success rate across diverse long-horizon scenarios.
         </p>
     </article>
 
@@ -95,10 +95,9 @@ Self-Improving Robotic Manipulation</b>
           <a href="https://x.com/HaochenShi74/status/1886599720279400732">[Tweet]</a>
           <a href="https://hshi74.github.io/toddlerbot">[Docs]</a>
         </div> -->
-        <p class="paper-description">Bridging the gap between robotic action and language understanding is crucial for creating truly generalizable manipulation policies.
-We introduce LACY (Language-Action Cycle), a unified vision-language framework that learns both language-to-action (L2A) and action-to-language (A2L) mappings within a single model.
-By jointly training on action generation, explanation, and consistency verification (L2C), LACY forms a self-improving cycle that generates and filters new data without human annotation.
-This bidirectional grounding yields over 56% improvement in success rate on real-world pick-and-place tasks and enables robust, interpretable language-action reasoning.
+        <p class="paper-description">To bridge the gap between robotic action and language understanding,
+we introduce a unified vision-language framework that learns both language-to-action (L2A) and action-to-language (A2L) mappings within a vision-language model.
+By jointly training on action generation, explanation, and consistency verification (L2C), LACY can generate new data without human annotation.
         </p>
     </article>
 
@@ -123,10 +122,10 @@ Reinforcement Learning and Diffusion Policy</b>
           <a href="https://ieeexplore.ieee.org/document/11127451">[Paper]</a>
           <a href="https://icra2026-dloroute.github.io/DLORoute/">[Video]</a>
         </div>
-        <p class="paper-description">Manipulating deformable linear objects such as ropes and cables is fundamental for automation but remains difficult due to their infinite flexibility and frequent contact with uncertain environments.
-        We propose a reinforcement learning and diffusion policy–based framework for robust yet delicate DLO routing.
-        Our method first trains RL agents for insertion and pulling while minimizing rope tension under varying friction, then distills their behavior into a diffusion policy trained on expert rollouts.
-        This approach enables gentle, contact-aware manipulation that prevents rope damage and maintains robustness across rough environments.
+        <p class="paper-description">To address the high flexibility of ropes and their frequent contact 
+          with uncertain environments, we propose a reinforcement learning and diffusion policy–based framework 
+          for robust and delicate deformable linear object (DLO) routing. This enables 
+          gentle, contact-aware manipulation that prevents rope damage while remaining robust in rough environments.
         </p>
     </article>
 
@@ -155,10 +154,9 @@ Reinforcement Learning and Diffusion Policy</b>
           <!-- <a href="https://github.com/hshi74/piano_dexterity">[Code]</a> -->
         </div>
         <p class="paper-description">
-          Understanding both language and vision is critical for robots to perform language-guided grasping in complex scenes.
-          We propose a CLIP-based parameter-efficient tuning (PET) framework that enables lightweight, adaptable multimodal learning for three key tasks: Referring Expression Segmentation (RES), Referring Grasp Synthesis (RGS), and Referring Grasp Affordance (RGA).
+          We propose a CLIP-based parameter-efficient tuning (PET) framework that enables lightweight, adaptable multimodal learning for referring expression segmentation and referring grasping tasks.
           Our approach introduces a bi-directional vision-language adapter for pixel-level grounding and a depth fusion branch to integrate geometric cues.
-          The model achieves state-of-the-art grounding accuracy on RES while demonstrating strong generalization to spatial reasoning and multi-object scenarios with minimal computation.        </p>
+          The model achieves state-of-the-art grounding accuracy while demonstrating strong generalization to spatial reasoning and multi-object scenarios with minimal computation.        </p>
         </p>
     </article>
 
